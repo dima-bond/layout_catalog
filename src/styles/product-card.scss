@@ -5,12 +5,8 @@
   flex: 0 0 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 13px 14px 14px;
+  padding: 14px 14px 14px;
   line-height: 15px;
-
-  &--position {
-    margin: 0 24px 51px;
-  }
 
   &__img-wrapper {
     margin: 0 auto 31px;
@@ -22,7 +18,7 @@
     width: 160px;
     border: 3px solid rgba(243, 243, 243, 0);
     transition: transform 1s;
-    padding: 14px 0;
+    padding: 13px 0;
 
     &:hover {
       border: 3px solid rgba(243, 243, 243, 1);

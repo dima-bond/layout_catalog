@@ -1,22 +1,14 @@
 .nav {
   &__list {
+    display: grid;
+    grid-template-columns: repeat(8, fit-content(300px));
+    grid-template-rows: 60px;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    height: 60px;
+    gap: 20px;
   }
 
   &__menu-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-
-    &--left {
-      margin-left: 0;
-    }
+    display: grid;
   }
 
   &__item-link {
@@ -25,7 +17,7 @@
     color: black;
     font-size: $font-average;
     font-weight: 500;
-    padding: 23px 0;
+    padding: 1.8em 0;
     transition: all 1s;
 
     &:hover {
